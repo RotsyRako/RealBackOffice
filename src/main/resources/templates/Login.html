@@ -31,8 +31,8 @@
 
     <form class="user" action="#" th:action="@{../BackOffice/Login}" th:object="${user}"
             method="POST">
-            <div class="mb-3"><input class="form-control form-control-user" type="text" field="*{ pseudo }" name="pseudo"/></div>
-            <div class="mb-3"><input class="form-control form-control-user" type="password" field="*{ mdp }" name="mdp"/></div>
+            <div class="mb-3"><input value="admin" class="form-control form-control-user" type="text" field="*{ pseudo }" name="pseudo"/></div>
+            <div class="mb-3"><input value="admin" class="form-control form-control-user" type="password" field="*{ mdp }" name="mdp"/></div>
             <button type="submit" class="btn btn-primary d-block btn-user w-100" style="background: #38686A;border-style: none;">Log In</button>
     </form>
                             </div>
