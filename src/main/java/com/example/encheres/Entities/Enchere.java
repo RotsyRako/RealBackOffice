@@ -21,7 +21,7 @@ public class Enchere {
 	@Column(name = "dateenchere")
 	Timestamp dateEnchere;
 	@Column(name = "gagnant")
-	int gagnant;
+	Integer gagnant;
 	@Column(name = "idenchereur")
 	Long idenchereur;
 	@Column(name = "sommedepart")
@@ -59,11 +59,11 @@ public class Enchere {
 		this.dateEnchere = dateEnchere;
 	}
 
-	public int getGagnant() {
+	public Integer getGagnant() {
 		return gagnant;
 	}
 
-	public void setGagnant(int gagnant) {
+	public void setGagnant(Integer gagnant) {
 		this.gagnant = gagnant;
 	}
 
